@@ -111,8 +111,8 @@ cursor: pointer;
   grid-template-areas:
     "photoOne photoTwo"
     "photoThee photoFour";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 30% 30%;
   }
 
 section img{
