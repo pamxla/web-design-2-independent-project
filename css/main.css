@@ -57,30 +57,35 @@ cursor: pointer;
 }
 
 .banner img {
-  width: 100%;
+  size: auto;
 }
 
 .banner-content {
   position: absolute;
-  bottom: 0;
-  width: 50%;
+  bottom: -7em;
+  left: 10em;
+  width: 21%;
 }
 
 .banner-content h1{
   font-family: mendl-sans-dawn,sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: white;
+  margin-bottom: 0;
 }
 
 .banner-content p{
   font-family: mundial, sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: white;
+  margin-top: 0;
 }
 
 .banner-content a{
   font-family: mundial, sans-serif;
   font-weight: 700;
   font-style: normal;
-  list-style: none;
+  text-decoration: none;
 }
