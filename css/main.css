@@ -56,8 +56,8 @@ cursor: pointer;
   position: relative;
 }
 
-.banner img {
-  size: 10%
+.banner1 img {
+  width: 100%
 }
 
 .banner-content {
@@ -88,4 +88,12 @@ cursor: pointer;
   font-weight: 700;
   font-style: normal;
   text-decoration: none;
+  color: white;
+}
+
+.btn{
+  font-size: .86rem;
+  background-color: #721817;
+  padding: 13px 27px;
+  border-radius: 15px;
 }
