@@ -73,6 +73,7 @@ cursor: pointer;
   font-style: normal;
   color: white;
   margin-bottom: 0;
+  font-size: 2rem;
 }
 
 .banner-content p{
@@ -92,8 +93,14 @@ cursor: pointer;
 }
 
 .btn{
-  font-size: .86rem;
+  font-size: .7rem;
   background-color: #721817;
-  padding: 13px 27px;
+  padding: 10px 25px;
   border-radius: 15px;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.btn:hover{
+  background: #231F20;
 }
