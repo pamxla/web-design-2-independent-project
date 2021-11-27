@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
-font-family: "Mundial", sans-serif;
 line-height: 1.4;
 }
 
@@ -51,5 +50,18 @@ cursor: pointer;
 
 .nav-item a:hover {
   color: #231F20
+}
 
+div h1{
+  font-family: mendl-sans-dawn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+div p{
+  font-family: mundial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
 }
