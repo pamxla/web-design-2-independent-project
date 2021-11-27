@@ -104,3 +104,20 @@ cursor: pointer;
 .btn:hover{
   background: #231F20;
 }
+
+#homephotos {
+  display: grid;
+  grid-gap: 5em;
+  grid-template-areas:
+    "photoOne photoTwo"
+    "photoThee photoFour";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+section img{
+  object-fit: cover;
+  width: 60%;
+  height: 60%;
+  object-position: 52% 32%;
+}
