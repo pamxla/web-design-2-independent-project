@@ -18,22 +18,22 @@ header {
 }
 
 .logo {
-display: flex;
-margin-right: auto;
-margin-left: 2rem;
-align-items: flex-start;
-cursor: pointer;
-width: 4rem;
+  display: flex;
+  margin-right: auto;
+  margin-left: 2rem;
+  align-items: flex-start;
+  cursor: pointer;
+  width: 4rem;
 }
 
 .nav-list {
-  background: #E0E0E2;
+  background: #e0e0e2;
   margin: 0;
   padding: 2rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  font-family: mundial,sans-serif;
+  font-family: mundial, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -50,7 +50,7 @@ width: 4rem;
 }
 
 .nav-item a:hover {
-  color: #231F20
+  color: #231f20;
 }
 
 .nav-item:first-child {
@@ -64,7 +64,7 @@ width: 4rem;
 }
 
 .banner1 img {
-  width: 100%
+  width: 100%;
 }
 
 .banner-content {
@@ -75,7 +75,7 @@ width: 4rem;
 }
 
 .banner-content h1 {
-  font-family: mendl-sans-dawn,sans-serif;
+  font-family: mendl-sans-dawn, sans-serif;
   font-weight: 500;
   font-style: normal;
   color: white;
@@ -109,21 +109,19 @@ width: 4rem;
 }
 
 .btn:hover {
-  background: #231F20;
+  background: #231f20;
 }
 
 #homephotos {
   display: grid;
   grid-gap: 3em;
-  grid-template-areas:
-    "photoOne photoTwo"
-    "photoThee photoFour";
-    grid-template-columns: 24% 24%;
-    grid-template-rows: 24% 24%;
-    justify-content: center;
-    margin-top: 28rem;
-    margin-bottom: 4rem;
-  }
+  grid-template-areas: "photoOne photoTwo" "photoThee photoFour";
+  grid-template-columns: 24% 24%;
+  grid-template-rows: 24% 24%;
+  justify-content: center;
+  margin-top: 28rem;
+  margin-bottom: 4rem;
+}
 
 section img {
   object-fit: cover;
@@ -133,13 +131,13 @@ section img {
 }
 
 footer {
-  background: #E0E0E2;
+  background: #e0e0e2;
   margin: 0;
   padding: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: mundial,sans-serif;
+  font-family: mundial, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
@@ -151,5 +149,5 @@ footer a {
 }
 
 footer a:hover {
-  color: #231F20;
+  color: #231f20;
 }
