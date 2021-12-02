@@ -80,7 +80,6 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.4rem;
-  text-align: left;
 }
 
 .educationsec img {
@@ -88,3 +87,6 @@ header {
   height: 250px;
   object-fit: cover;
   object-position: 20% 10%;
+  position: absolute;
+  top: 158px;
+  right: 62px;
