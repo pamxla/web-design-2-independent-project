@@ -127,21 +127,21 @@ header {
 }
 
 .exhibition1 img {
-  width: 600px;
-  height: 350px;
+  width: 876px;
+  height: 450px;
   object-fit: cover;
   object-position: 20% 19%;
   position: absolute;
-  top: 158px;
+  top: 200px;
   right: 59px;
 }
 
 .exhibition2 img {
-  width: 600px;
-  height: 350px;
+  width: 876px;
+  height: 450px;
   object-fit: cover;
   object-position: 20% 19%;
   position: absolute;
-  top: 158px;
-  right: 59px;
+  top: 200px;
+  right: 960px;
 }
