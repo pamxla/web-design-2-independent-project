@@ -80,6 +80,7 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.4rem;
+  width: 21%;
 }
 
 .educationsec img {
@@ -119,6 +120,7 @@ header {
   color: black;
   font-size: 1.4rem;
   text-align: center;
+  width: 28%;
 }
 
 .exhibitions {
