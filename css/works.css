@@ -1,0 +1,14 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #fff;
+  width: 100%;
+  margin: 0;
+}

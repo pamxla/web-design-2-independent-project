@@ -44,7 +44,7 @@ header {
 }
 
 .nav-item a {
-  text-decoration:none;
+  text-decoration: none;
   color: #721817;
   transition: all 0.3s ease 0s;
 }
