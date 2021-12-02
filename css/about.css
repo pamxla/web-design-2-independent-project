@@ -128,9 +128,9 @@ header {
 
 .exhibition1 img {
   width: 876px;
-  height: 450px;
+  height: 500px;
   object-fit: cover;
-  object-position: 20% 19%;
+  object-position: 20% 35%;
   position: absolute;
   top: 200px;
   right: 59px;
@@ -138,10 +138,32 @@ header {
 
 .exhibition2 img {
   width: 876px;
-  height: 450px;
+  height: 500px;
   object-fit: cover;
   object-position: 20% 19%;
   position: absolute;
   top: 200px;
   right: 960px;
+}
+
+footer {
+  background: #e0e0e2;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: mundial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+footer a {
+  color: #721817;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+footer a:hover {
+  color: #231f20;
 }
