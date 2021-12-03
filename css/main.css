@@ -19,8 +19,6 @@ header {
 
 nav img {
   display: flex;
-  margin-right: auto;
-  margin-left: 2rem;
   align-items: flex-start;
   cursor: pointer;
   width: 4rem;
@@ -52,4 +50,18 @@ nav a {
 
 nav a:hover {
   color: #231f20;
+}
+
+section {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 700px 700px;
+  grid-template-rows: 700px 700px;
+  grid-gap: 30px;
+  padding: 50px;
+}
+
+section img {
+  width: 142%;
+  height: auto;
 }
