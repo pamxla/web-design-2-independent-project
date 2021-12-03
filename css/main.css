@@ -67,6 +67,7 @@ nav a:hover {
   bottom: 25em;
   left: 15em;
   width: 27%;
+  max-height: 10vh;
 }
 
 .banner-content h1 {
@@ -136,6 +137,7 @@ footer {
   font-family: mundial, sans-serif;
   font-weight: 600;
   font-style: normal;
+  font-size: 1.5rem;
 }
 
 footer a {
