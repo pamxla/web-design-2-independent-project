@@ -24,9 +24,10 @@ nav img {
   align-items: flex-start;
   cursor: pointer;
   width: 4rem;
+  margin-right: 70rem;
 }
 
-nav {
+nav ul {
   background: #e0e0e2;
   margin: 0;
   padding: 2rem;
@@ -38,22 +39,17 @@ nav {
   font-style: normal;
 }
 
-.nav-item {
+nav li {
   list-style: none;
-  margin-right: 5rem;
+  margin-right: 10rem;
 }
 
-.nav-item a {
+nav a {
   text-decoration: none;
   color: #721817;
   transition: all 0.3s ease 0s;
 }
 
-.nav-item a:hover {
+nav a:hover {
   color: #231f20;
-}
-
-.nav-item:first-child {
-  margin-right: auto;
-  margin-left: 2rem;
 }
