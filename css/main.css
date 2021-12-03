@@ -63,9 +63,9 @@ nav a:hover {
 
 .banner-content {
   position: absolute;
-  bottom: -4em;
-  left: 10em;
-  width: 21%;
+  bottom: 25em;
+  left: 15em;
+  width: 27%;
 }
 
 .banner-content h1 {
