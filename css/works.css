@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #fff;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+}
+
+nav img {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  width: 4rem;
+  margin-right: 66rem;
+}
+
+nav ul {
+  background: #e0e0e2;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: mundial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 10rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #721817;
+  transition: all 0.3s ease 0s;
+}
+
+nav a:hover {
+  color: #231f20;
+}
