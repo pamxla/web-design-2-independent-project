@@ -69,3 +69,25 @@ section img {
   height: 100%;
   object-position: 40% 32%;
 }
+
+footer {
+  background: #e0e0e2;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: mundial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+footer a {
+  color: #721817;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+footer a:hover {
+  color: #231f20;
+}
