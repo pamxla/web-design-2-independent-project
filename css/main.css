@@ -52,7 +52,7 @@ nav a:hover {
   color: #231f20;
 }
 
-section {
+.photogrid {
   display: grid;
   justify-content: center;
   grid-template-columns: 700px 700px;
