@@ -52,6 +52,61 @@ nav a:hover {
   color: #231f20;
 }
 
+.banner {
+  position: relative;
+  max-height: 50vh;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: -4em;
+  left: 10em;
+  width: 21%;
+}
+
+.banner-content h1 {
+  font-family: mendl-sans-dawn, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+.banner-content p {
+  font-family: mundial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-top: 0;
+  width: 80%;
+}
+
+.banner-content a {
+  font-family: mundial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  font-size: .7rem;
+  background-color: #721817;
+  padding: 10px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.btn:hover {
+  background: #231f20;
+}
+
 .photogrid {
   display: grid;
   grid-gap: 1em;
