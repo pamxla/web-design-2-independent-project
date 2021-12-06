@@ -17,12 +17,11 @@ header {
   margin: 0;
 }
 
-nav img {
+.logo img {
   display: flex;
   align-items: flex-start;
   cursor: pointer;
   width: 4rem;
-  margin-right: 66rem;
 }
 
 nav ul {
