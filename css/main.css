@@ -55,16 +55,16 @@ nav a:hover {
   color: #231f20;
 }
 
-.banner {
+.banner2 {
   position: relative;
   max-height: 50vh;
 }
 
-.banner img {
+.banner2 img {
   width: 100%;
 }
 
-.banner-content {
+.banner2-content {
   position: absolute;
   bottom: 1em;
   left: 15em;
@@ -72,7 +72,7 @@ nav a:hover {
   max-height: 10vh;
 }
 
-.banner-content h1 {
+.banner2-content h1 {
   font-family: mendl-sans-dawn, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -81,7 +81,7 @@ nav a:hover {
   font-size: 2.5rem;
 }
 
-.banner-content p {
+.banner2-content p {
   font-family: mundial, sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -90,7 +90,7 @@ nav a:hover {
   width: 80%;
 }
 
-.banner-content a {
+.banner2-content a {
   font-family: mundial, sans-serif;
   font-weight: bold;
   font-style: normal;
