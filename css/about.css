@@ -17,13 +17,14 @@ header {
   margin: 0;
 }
 
-nav img {
+.rlogo img {
   display: flex;
   align-items: flex-start;
   cursor: pointer;
   width: 4rem;
-  margin-right: 66rem;
-
+  margin-left: 6rem;
+  margin-top: 1rem;
+  position: absolute;
 }
 
 nav ul {
