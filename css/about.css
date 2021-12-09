@@ -242,3 +242,20 @@ nav a {
 @media only screen and (min-width: 20em) {
 
 }
+
+@media only screen and (min-width: 90em) {
+
+  .education p {
+    width: 67%;
+    font-size: 1.2rem;
+  }
+
+  .education h2 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+
+  .exhibitions p {
+    font-size: 1.2rem;
+  }
+}
