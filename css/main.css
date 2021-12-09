@@ -200,4 +200,24 @@ nav a {
 
 @media only screen and (min-width: 20em) {
 
+  nav ul {
+    font-size: 1rem;
+  }
+
+  nav a {
+    margin-right: -72px;
+  }
+
+.rlogo img {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 7em;
+  left: 3em;
+  width: 94%;
+  max-height: 2vh;
+}
 }
