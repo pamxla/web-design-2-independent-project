@@ -119,7 +119,7 @@ nav a:hover {
   grid-template-columns: 34% 34%;
   grid-template-rows: 24% 24%;
   justify-content: center;
-  margin-top: 38rem;
+  margin-top: 27rem;
   margin-bottom: 4rem;
 }
 
@@ -134,8 +134,8 @@ section a {
   font-family: mundial, sans-serif;
   font-weight: normal;
   font-style: normal;
+  color: black;
   font-size: 1rem;
-  text-decoration: none;
 }
 
 footer {
@@ -159,4 +159,15 @@ footer a {
 
 footer a:hover {
   color: #231f20;
+}
+
+@media only screen and (min-width: 38em) {
+
+.rlogo img {
+    width: 3rem;
+}
+
+nav ul {
+  font-size: 1rem;
+}
 }
