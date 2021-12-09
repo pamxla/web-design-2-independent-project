@@ -115,7 +115,6 @@ nav a:hover {
 .photogrid {
   display: grid;
   grid-gap: 1em;
-  grid-template-areas: "photoOne photoTwo" "photoThee photoFour";
   grid-template-columns: 34% 34%;
   grid-template-rows: 24% 24%;
   justify-content: center;
@@ -176,12 +175,20 @@ footer a:hover {
   flex-direction: row;
 }
 
-.banner-content {
+.banner2-content {
   position: absolute;
-  bottom: 10em;
-  left: 10em;
-  width: 65%;
+  bottom: 11em;
+  left: 5em;
+  width: 93%;
   max-height: 8vh;
+}
+
+.banner2-content h1{
+  font-size: 3rem;
+}
+
+.banner2-content p {
+  font-size: 1.5rem;
 }
 
 .banner2 img {
@@ -190,6 +197,15 @@ footer a:hover {
   height: 615px;
   object-position: 59% 30%;
 }
+
+.photogrid {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 34% 34%;
+  grid-template-rows: 24% 24%;
+  justify-content: center;
+  margin-top: 27rem;
+  margin-bottom: 4rem;
 }
 
 @media only screen and (min-width: 38em) {
@@ -206,6 +222,16 @@ nav a {
   margin-right: -72px;
 }
 
+.banner2 {
+  position: relative;
+  max-height: 50vh;
+}
+
+.banner2 img {
+  width: 100%;
+  max-height: 134vh;
+}
+
 .banner2-content {
   position: absolute;
   bottom: 16em;
@@ -216,16 +242,17 @@ nav a {
 
 .banner2-content h1 {
   margin-bottom: 0;
-  font-size: 1.7rem;
+  font-size: 3rem;
 }
 
 .banner2-content p {
   margin-top: 0;
-  width: 80%;
+  width: 95%;
+  font-size: 1.5rem;
 }
 
 .photogrid {
-  margin-top: 5rem;
+  margin-top: 18rem;
 }
 }
 
