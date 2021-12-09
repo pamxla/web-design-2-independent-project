@@ -178,10 +178,17 @@ footer a:hover {
 
 .banner-content {
   position: absolute;
-  bottom: 7em;
-  left: 3em;
-  width: 94%;
-  max-height: 2vh;
+  bottom: 10em;
+  left: 10em;
+  width: 65%;
+  max-height: 8vh;
+}
+
+.banner2 img {
+  object-fit: cover;
+  width: 590px;
+  height: 615px;
+  object-position: 59% 30%;
 }
 }
 
@@ -222,7 +229,7 @@ nav a {
 }
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 84em) {
 
   .banner2-content h1 {
     margin-bottom: 0;

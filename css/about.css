@@ -337,13 +337,9 @@ margin-bottom: 4rem;
 @media only screen and (min-width: 84em) {
 
   .education h2 {
-    font-size: 2.5rem;
-    margin-bottom: .5rem;
-  }
-
-  .education h2 {
+    font-size: 3rem;
     text-align: left;
-    font-size: 2.5rem;
+    margin-bottom: .5rem;
   }
 
   .education p {
