@@ -163,16 +163,17 @@ footer a:hover {
 @media only screen and (min-width: 20em) {
 
   nav ul {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    padding-top: 7rem;
   }
 
   nav a {
-    margin-right: -72px;
+    margin-right: -26px;
   }
 
 .rlogo img {
-  display: flex;
-  flex-direction: row;
+  justify-content: center;
+  margin-left: 14rem;
 }
 
 .banner2-content {
@@ -201,21 +202,28 @@ footer a:hover {
 .photogrid {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: 34% 34%;
+  grid-template-columns: 78%;
   grid-template-rows: 24% 24%;
   justify-content: center;
-  margin-top: 27rem;
+  margin-top: 19rem;
   margin-bottom: 4rem;
 }
 
 @media only screen and (min-width: 38em) {
 
 .rlogo img {
-    width: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  position: absolute;
 }
 
 nav ul {
   font-size: 1rem;
+  padding: 2rem;
 }
 
 nav a {
@@ -253,6 +261,10 @@ nav a {
 
 .photogrid {
   margin-top: 18rem;
+  grid-template-columns: 34% 34%;
+  grid-template-rows: 24% 24%;
+  justify-content: center;
+  margin-bottom: 4rem;
 }
 }
 
@@ -279,5 +291,9 @@ nav a {
 
   .photogrid {
     margin-top: 20rem;
+    grid-template-columns: 34% 34%;
+    grid-template-rows: 24% 24%;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
 }

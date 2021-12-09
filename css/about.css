@@ -187,16 +187,18 @@ footer a:hover {
 
 @media only screen and (min-width: 20em) {
 
-  .rlogo img {
-    width: 3rem;
-}
+  nav ul {
+    font-size: 1.5rem;
+    padding-top: 7rem;
+  }
 
-nav ul {
-  font-size: 1rem;
-}
+  nav a {
+    margin-right: -26px;
+  }
 
-nav a {
-  margin-right: -72px;
+.rlogo img {
+  justify-content: center;
+  margin-left: 14rem;
 }
 
 .education {
@@ -263,17 +265,24 @@ margin-bottom: 4rem;
 
 @media only screen and (min-width: 38em) {
 
-.rlogo img {
+  .rlogo img {
     width: 3rem;
-}
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    position: absolute;
+  }
 
-nav ul {
-  font-size: 1rem;
-}
+  nav ul {
+    font-size: 1rem;
+    padding: 2rem;
+  }
 
-nav a {
-  margin-right: -72px;
-}
+  nav a {
+    margin-right: -72px;
+  }
 
 .education {
   display: grid;
