@@ -161,6 +161,30 @@ footer a:hover {
   color: #231f20;
 }
 
+@media only screen and (min-width: 20em) {
+
+  nav ul {
+    font-size: 1rem;
+  }
+
+  nav a {
+    margin-right: -72px;
+  }
+
+.rlogo img {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 7em;
+  left: 3em;
+  width: 94%;
+  max-height: 2vh;
+}
+}
+
 @media only screen and (min-width: 38em) {
 
 .rlogo img {
@@ -195,30 +219,6 @@ nav a {
 
 .photogrid {
   margin-top: 5rem;
-}
-}
-
-@media only screen and (min-width: 20em) {
-
-  nav ul {
-    font-size: 1rem;
-  }
-
-  nav a {
-    margin-right: -72px;
-  }
-
-.rlogo img {
-  display: flex;
-  flex-direction: row;
-}
-
-.banner-content {
-  position: absolute;
-  bottom: 7em;
-  left: 3em;
-  width: 94%;
-  max-height: 2vh;
 }
 }
 
