@@ -184,3 +184,12 @@ nav ul {
 nav a {
   margin-right: -72px;
 }
+
+.banner-content2 {
+  position: absolute;
+  bottom: 6em;
+  left: 20em;
+  width: 47%;
+  max-height: 36vh;
+}
+}
