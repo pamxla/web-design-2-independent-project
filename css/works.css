@@ -170,3 +170,17 @@ footer a {
 footer a:hover {
   color: #231f20;
 }
+
+@media only screen and (min-width: 38em) {
+
+.rlogo img {
+    width: 3rem;
+}
+
+nav ul {
+  font-size: 1rem;
+}
+
+nav a {
+  margin-right: -72px;
+}

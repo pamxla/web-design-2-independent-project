@@ -202,7 +202,7 @@ nav a {
 .education {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: 50% 34%;
+  grid-template-columns: 37% 44%;
   grid-template-rows: 24% 24%;
   justify-content: center;
   margin-top: 5rem;
@@ -220,18 +220,21 @@ nav a {
 
 .education p {
   width: 97%;
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 .education h2 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
+.exhibitions {
+  margin-top: 2rem;
+}
 .exhibitions h2 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .exhibitions p {
-  font-size: .8rem;
+  font-size: 1rem;
 }
 }
