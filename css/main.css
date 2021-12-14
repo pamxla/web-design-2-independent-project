@@ -167,13 +167,14 @@ footer {
   font-size: 1.5rem;
 }
 
-footer a {
+footer p {
   color: #721817;
   text-decoration: none;
   transition: all 0.3s ease 0s;
+  font-size: 1rem;
 }
 
-footer a:hover {
+footer p:hover {
   color: #231f20;
 }
 
@@ -312,6 +313,4 @@ nav a {
     grid-template-rows: 24% 24%;
     justify-content: center;
     margin-bottom: 4rem;
-}
-
 }
