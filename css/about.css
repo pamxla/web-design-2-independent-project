@@ -66,10 +66,7 @@ nav a:hover {
 }
 
 .education img {
-  object-fit: cover;
   width: 100%;
-  height: 100%;
-  object-position: 40% 32%;
   grid-column: 2;
   grid-row: 1/2;
 }
@@ -213,10 +210,7 @@ footer p:hover {
   }
 
   .education img {
-    object-fit: cover;
     width: 100%;
-    height: 100%;
-    object-position: 40% 32%;
     grid-column: 1;
     grid-row: 2;
   }
@@ -296,10 +290,7 @@ footer p:hover {
   }
 
   .education img {
-    object-fit: cover;
     width: 100%;
-    height: 100%;
-    object-position: 40% 32%;
     grid-column: 2;
     grid-row: 1/2;
   }
