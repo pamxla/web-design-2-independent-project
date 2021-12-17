@@ -64,7 +64,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: #721817;
-  transition: all .3s ease 1s;
+  transition: all .3s ease 0s;
 }
 
 nav a:hover {
@@ -167,7 +167,7 @@ footer {
 footer p {
   color: #721817;
   text-decoration: none;
-  transition: all .3s ease 1s;
+  transition: all .3s ease 0s;
   font-size: 1rem;
 }
 
