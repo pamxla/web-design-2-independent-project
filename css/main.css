@@ -225,6 +225,7 @@ footer p:hover {
   justify-content: center;
   margin-top: 27rem;
   margin-bottom: 4rem;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -314,3 +315,4 @@ nav a {
     justify-content: center;
     margin-bottom: 4rem;
   }
+}
